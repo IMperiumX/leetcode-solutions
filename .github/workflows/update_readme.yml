@@ -1,9 +1,6 @@
 name: Update README
 
 on:
-  push:
-    branches:
-      - main  # Or your main branch name
   workflow_dispatch:
     schedule:
       - cron: '0 0 * * *' # Run every day at 00:00 UTC
