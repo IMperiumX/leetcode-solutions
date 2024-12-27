@@ -12,44 +12,35 @@ The repository is organized into the following directories:
 
 ## Progress Tracker
 
-Here's a summary of my progress:
-
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
-| Easy       | 50     | 100   | 50%        |
-| Medium     | 30     | 150   | 20%        |
-| Hard       | 10     | 50    | 20%        |
-| **Total**  | **90** | **300** | **30%**       |
+| Easy | 0 | 100 | 0.0% |
+| Medium | 0 | 150 | 0.0% |
+| Hard | 0 | 50 | 0.0% |
+| **Total** | **1** | **300** | **0.3%** |
 
-_Last updated: 2023-10-27_
+_Last updated: Fri Dec 27 02:02:28 UTC 2024_
 
 ## Problems Solved
 
 ### By Number
 
-| Problem Number | Problem Name                                  | Difficulty | Solution                                             |
-| :------------- | :-------------------------------------------- | :--------- | :--------------------------------------------------- |
-| 0001           | [Two Sum](problems/0001-two-sum)             | Easy       | [Python](problems/0001-two-sum/solution.py), [Java](problems/0001-two-sum/solution.java) |
-| 0002           | [Add Two Numbers](problems/0002-add-two-numbers) | Medium     | [C++](problems/0002-add-two-numbers/solution.cpp)    |
-| 0121           | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | Easy       | [Python](problems/0121-best-time-to-buy-and-sell-stock/solution.py) |
-| ...            | ...                                           | ...        | ...                                                  |
+| Problem Number | Problem Name | Difficulty | Solution |
+| :------------- | :----------- | :--------- | :------- |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Unknown | [py](problems/0347-top-k-frequent-elements/solution.py) |
 
 ### By Topic
 
-| Topic                                     | Problems                                                                                                                                                                                                                            |
-| :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Arrays](topics/arrays/)                 | [Two Sum](problems/0001-two-sum), [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock), [Contains Duplicate](problems/0053-maximum-subarray), [Maximum Subarray](problems/0053-maximum-subarray) |
-| [Linked Lists](topics/linked-lists/)       | [Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists), [Reverse Linked List](problems/0206-reverse-linked-list), [Linked List Cycle](problems/0141-linked-list-cycle)                                                     |
-| [Dynamic Programming](topics/dynamic-programming/) | [Climbing Stairs](problems/0070-climbing-stairs), [House Robber](problems/0198-house-robber)                                                                                                                                 |
-| ...                                       | ...                                                                                                                                                                                                                                |
+| Topic | Problems |
+| :---- | :------- |
+| Bucket-Sort |  |
+| Hash-Table |  |
 
 ### By Difficulty
 
-| Difficulty | Problems                                                                                                                                                                     |
-| :--------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Easy       | [Two Sum](problems/0001-two-sum), [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock), [Valid Parentheses](problems/0020-valid-parentheses) |
-| Medium     | [Add Two Numbers](problems/0002-add-two-numbers), [Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters)          |
-| Hard       | [Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays), [Regular Expression Matching](problems/0010-regular-expression-matching)                         |
+| Difficulty | Problems |
+| :--------- | :------- |
+| Unknown | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 
 ## How to Use (Optional)
 
