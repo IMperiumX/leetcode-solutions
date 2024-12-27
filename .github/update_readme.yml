@@ -1,0 +1,33 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main  # Or your main branch name
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # Choose your desired Python version
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4 requests # Or any other libraries you need
+
+      - name: Run script to update README
+        run: python update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update README tables"
+          git push
