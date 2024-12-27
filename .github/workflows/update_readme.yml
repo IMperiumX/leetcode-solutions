@@ -9,17 +9,21 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }} # Use your PAT
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x' # Choose your desired Python version
+          python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install beautifulsoup4 requests # Or any other libraries you need
+        run: pip install beautifulsoup4 requests
 
       - name: Run script to update README
         run: python update_readme.py
