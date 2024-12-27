@@ -15,7 +15,7 @@ The repository is organized into the following directories:
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
 | Easy | 0 | 100 | 0.0% |
-| Medium | 0 | 150 | 0.0% |
+| Medium | 5 | 150 | 3.3% |
 | Hard | 0 | 50 | 0.0% |
 | **Total** | **5** | **300** | **1.7%** |
 
@@ -25,11 +25,11 @@ The repository is organized into the following directories:
 
 | Problem Number | Problem Name | Difficulty | Solution |
 | :------------- | :----------- | :--------- | :------- |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Unknown | [py](problems/0036-valid-sudoku/solution.py) |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Unknown | [py](problems/0128-longest-consecutive-sequence/solution.py) |
-| 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Unknown | [py](problems/0238-product-of-array-except-self/solution.py) |
-| 271 | [Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Unknown | [py](problems/0271-encode-and-decode-strings/solution.py) |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Unknown | [py](problems/0347-top-k-frequent-elements/solution.py) |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [py](problems/0036-valid-sudoku/solution.py) |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [py](problems/0128-longest-consecutive-sequence/solution.py) |
+| 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [py](problems/0238-product-of-array-except-self/solution.py) |
+| 271 | [Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Medium | [py](problems/0271-encode-and-decode-strings/solution.py) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [py](problems/0347-top-k-frequent-elements/solution.py) |
 
 ### By Topic
 
@@ -47,7 +47,7 @@ The repository is organized into the following directories:
 
 | Difficulty | Problems |
 | :--------- | :------- |
-| Unknown | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
+| Medium | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 
 ## How to Use (Optional)
 
