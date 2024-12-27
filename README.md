@@ -46,7 +46,7 @@ _Last updated: Fri Dec 27 02:12:45 UTC 2024_
 
 -   **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/IMperiumX/leetcode-solutions
     ```
 -   **Navigate to a problem folder:**
     ```bash
