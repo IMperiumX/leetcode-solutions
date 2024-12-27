@@ -1,6 +1,4 @@
-# 271. Encode and Decode Strings
-
-**Difficulty:** Medium
+# 271. Encode and Decode Strings, Difficulty: Medium
 
 **Link:** [https://leetcode.com/problems/encode-and-decode-strings/](https://leetcode.com/problems/encode-and-decode-strings/)
 
@@ -44,7 +42,7 @@ Implement the `encode` and `decode` methods.
 
 ## Solution Approach (Length Prefix)
 
-The `solution.py` file contains a Python solution that uses a length prefix approach.
+The [`solution.py`](./solution.py) file contains a Python solution that uses a length prefix approach.
 
 **Encode:**
 

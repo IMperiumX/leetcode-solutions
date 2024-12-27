@@ -1,4 +1,4 @@
-# String Manipulation Approach
+# String Manipulation Approach, Difficulty: Medium
 
 class Solution:
     def encode(self, strs: list[str]) -> str:
