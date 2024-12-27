@@ -27,7 +27,7 @@ def get_problem_data():
                 with open(readme_path, "r") as f:
                     readme_content = f.read()
                     difficulty = re.search(
-                        r"## Problem Description\n.*Difficulty: ([\w]+)", readme_content
+                        r".*Difficulty:\s*(\w+)", readme_content
                     ).group(1)
             except:
                 difficulty = "Unknown"
