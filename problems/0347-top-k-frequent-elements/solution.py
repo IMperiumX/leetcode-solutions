@@ -31,8 +31,8 @@ def topKFrequent(nums, k):
         buckets[freq].append(num)
 
     result = []
-    for i in range(len(buckets) - 1, 0, -1):
-        for num in buckets[i]:
+    for bucket in buckets[::-1]:
+        for num in bucket:
             result.append(num)
             if len(result) == k:
                 return result
