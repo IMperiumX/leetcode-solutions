@@ -205,9 +205,7 @@ def update_readme(problems, topics):
         r"(## Progress Tracker\n\n)[\s\S]*?(## Problems Solved)",
         r"\1"
         + progress_tracker_table
-        + r"\n\n_Last updated: "
-        + os.popen("date").read().strip()
-        + r"_\n\n\2",
+        + r"\n\n\2",
         readme_content,
     )
 
