@@ -19,7 +19,7 @@ The repository is organized into the following directories:
 | Hard | 0 | 50 | 0.0% |
 | **Total** | **1** | **300** | **0.3%** |
 
-_Last updated: Fri Dec 27 02:12:45 UTC 2024_
+_Last updated: Fri Dec 27 04:16:20 AM EET 2024_
 
 ## Problems Solved
 
@@ -33,8 +33,8 @@ _Last updated: Fri Dec 27 02:12:45 UTC 2024_
 
 | Topic | Problems |
 | :---- | :------- |
-| Bucket-Sort |  |
-| Hash-Table |  |
+| Hash-Table | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
+| Bucket-Sort | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 
 ### By Difficulty
 
