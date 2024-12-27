@@ -31,8 +31,8 @@ The repository is organized into the following directories:
 
 | Topic | Problems |
 | :---- | :------- |
-| Hash-Table | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Bucket-Sort | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
+| Hash-Table | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 
 ### By Difficulty
 
