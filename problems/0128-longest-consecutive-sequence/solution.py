@@ -1,5 +1,4 @@
-# problems/0128-longest-consecutive-sequence/solution.py
-# 128. Longest Consecutive Sequence - Using a Set for O(n) Time
+# Using a Set for O(n) Time
 
 """
 This solution achieves O(n) time complexity by using a set to efficiently check for the presence of numbers.
