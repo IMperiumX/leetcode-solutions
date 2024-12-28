@@ -16,8 +16,8 @@ The repository is organized into the following directories:
 | :--------- | :----- | :---- | :--------- |
 | Easy | 0 | 100 | 0.0% |
 | Medium | 5 | 150 | 3.3% |
-| Hard | 0 | 50 | 0.0% |
-| **Total** | **5** | **300** | **1.7%** |
+| Hard | 1 | 50 | 2.0% |
+| **Total** | **6** | **300** | **2.0%** |
 
 ## Problems Solved
 
@@ -30,6 +30,7 @@ The repository is organized into the following directories:
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [py](problems/0238-product-of-array-except-self/solution.py) |
 | 271 | [Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Medium | [py](problems/0271-encode-and-decode-strings/solution.py) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [py](problems/0347-top-k-frequent-elements/solution.py) |
+| 689 | [Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [py](problems/0689-maximum-sum-of-3-non-overlapping-subarrays/solution.py) |
 
 ### By Topic
 
@@ -37,7 +38,8 @@ The repository is organized into the following directories:
 | :---- | :------- |
 | Union-Find | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | Bucket-Sort | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
-| Array | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
+| Array | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
+| Dynamic Programming | [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | String | [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |
 | Prefix-Sum | [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
 | Hash-Table | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
@@ -47,6 +49,7 @@ The repository is organized into the following directories:
 
 | Difficulty | Problems |
 | :--------- | :------- |
+| Hard | [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | Medium | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 
 ## How to Use (Optional)
