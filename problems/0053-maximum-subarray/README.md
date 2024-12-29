@@ -78,3 +78,5 @@ A **subarray** is a **contiguous** part of an array.
 
 [kadane algorithm](./solution.py)
 [dive and conquer](./divide_and_conquer.py)
+
+see other 5 solutions [post](https://leetcode.com/problems/maximum-subarray/solutions/1595195/c-python-7-simple-solutions-w-explanation-brute-force-dp-kadane-divide-conquer/)
