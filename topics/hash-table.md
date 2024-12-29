@@ -12,3 +12,4 @@ Hash tables are commonly used to implement associative arrays, database indexing
   - Demonstrates the use of a hash table (dictionary in Python) to efficiently count the frequency of elements in an array, which is a crucial step in solving the problem.
 - [36. Valid Sudoku](./../problems/0036-valid-sudoku/README.md)
 - [128. Longest Consecutive Sequence](./../problems/0128-longest-consecutive-sequence/README.md)
+- [1. Two Sum](./../problems/0001-two-sum/README.md)
