@@ -14,10 +14,10 @@ The repository is organized into the following directories:
 
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
-| Easy | 0 | 100 | 0.0% |
+| Easy | 1 | 100 | 1.0% |
 | Medium | 5 | 150 | 3.3% |
 | Hard | 1 | 50 | 2.0% |
-| **Total** | **6** | **300** | **2.0%** |
+| **Total** | **7** | **300** | **2.3%** |
 
 ## Problems Solved
 
@@ -25,6 +25,7 @@ The repository is organized into the following directories:
 
 | Problem Number | Problem Name | Difficulty | Solution |
 | :------------- | :----------- | :--------- | :------- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [py](problems/0001-two-sum/solution.py) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [py](problems/0036-valid-sudoku/solution.py) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [py](problems/0128-longest-consecutive-sequence/solution.py) |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [py](problems/0238-product-of-array-except-self/solution.py) |
@@ -38,17 +39,18 @@ The repository is organized into the following directories:
 | :---- | :------- |
 | Union-Find | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | Bucket-Sort | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
-| Array | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
+| Array | [1. Two Sum](https://leetcode.com/problems/two-sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | Dynamic Programming | [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | String | [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |
 | Prefix-Sum | [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
-| Hash-Table | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
+| Hash-Table | [1. Two Sum](https://leetcode.com/problems/two-sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Matrix | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |
 
 ### By Difficulty
 
 | Difficulty | Problems |
 | :--------- | :------- |
+| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/) |
 | Hard | [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | Medium | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 
