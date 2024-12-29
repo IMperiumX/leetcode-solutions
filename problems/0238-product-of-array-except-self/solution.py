@@ -25,7 +25,7 @@ class Solution:
         # Calculate prefix products
         prefix_product = 1
         for i in range(n):
-            result[i] = prefix_product
+            result[i] = prefix_product  # Store the prefix product
             prefix_product *= nums[i]
 
         # Calculate suffix products and multiply with prefix products
@@ -35,3 +35,9 @@ class Solution:
             suffix_product *= nums[i]
 
         return result
+
+
+solution = Solution()
+print(solution.productExceptSelf([1, 2, 3, 4]))  # [24, 12, 8, 6]
+print(solution.productExceptSelf([-1, 1, 0, -3, 3]))  # [0, 0, 9, 0, 0]
+print(solution.productExceptSelf([1, 2, 3, 4, 5]))  # [120, 60, 40, 30, 24]
