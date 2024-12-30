@@ -102,10 +102,10 @@ Consider the array: `[-2, 1, -3, 4, -1, 2, 1, -5, 4]`
 
 The maximum sum of a contiguous subarray is 6 (from the subarray \[4, -1, 2, 1]).
 
-
 ## Related LeetCode Problems
 
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [689. Maximum Sum of 3 Non-Overlapping Subarrays](./../problems/0689-maximum-sum-of-3-non-overlapping-subarrays/README.md) This problem can be solved efficiently using dynamic programming. We can break down the problem into smaller overlapping subproblems: finding the maximum sum of one subarray, then two non-overlapping subarrays, and finally three. By storing the solutions to these subproblems, we can avoid redundant calculations and build up the solution for three subarrays. Specifically, we can use two additional arrays to store the best starting position of a subarray to the left and to the right of every index.
+* [2466. Count Ways To Build Good Strings](./../problems/2466-count-ways-to-build-good-strings/README.md) This problem can be solved using dynamic programming to count the number of good strings of different lengths. By storing the number of good strings for each length, we can avoid redundant calculations and sum up the counts within the desired length range.
