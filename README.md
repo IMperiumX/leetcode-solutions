@@ -14,10 +14,10 @@ The repository is organized into the following directories:
 
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
-| Easy | 2 | 100 | 2.0% |
+| Easy | 4 | 100 | 4.0% |
 | Medium | 5 | 150 | 3.3% |
-| Hard | 1 | 50 | 2.0% |
-| **Total** | **9** | **300** | **3.0%** |
+| Hard | 2 | 50 | 4.0% |
+| **Total** | **12** | **300** | **4.0%** |
 
 ## Problems Solved
 
@@ -27,22 +27,27 @@ The repository is organized into the following directories:
 | :------------- | :----------- | :--------- | :------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [py](problems/0001-two-sum/solution.py) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [py](problems/0036-valid-sudoku/solution.py) |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Unknown | [py](problems/0053-maximum-subarray/solution_divide_conquer.py), [py](problems/0053-maximum-subarray/solution.py) |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Hard | [py](problems/0053-maximum-subarray/solution_divide_conquer.py), [py](problems/0053-maximum-subarray/solution.py) |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [py](problems/0121-best-time-to-buy-and-sell-stock/solution.py) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [py](problems/0128-longest-consecutive-sequence/solution.py) |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [py](problems/0141-linked-list-cycle/solution.py) |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [py](problems/0206-reverse-linked-list/solution_iterative.py), [py](problems/0206-reverse-linked-list/solution.py) |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [py](problems/0238-product-of-array-except-self/solution.py) |
 | 271 | [Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Medium | [py](problems/0271-encode-and-decode-strings/solution.py) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [py](problems/0347-top-k-frequent-elements/solution.py) |
 | 689 | [Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [py](problems/0689-maximum-sum-of-3-non-overlapping-subarrays/solution.py) |
+| 2466 | [Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) | Unknown | [py](problems/2466-count-ways-to-build-good-strings/solution.py) |
 
 ### By Topic
 
 | Topic | Problems |
 | :---- | :------- |
 | Union-Find | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |
+| Floyds_Cycle_Finding |  |
 | Bucket-Sort | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Array | [1. Two Sum](https://leetcode.com/problems/two-sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
-| Dynamic Programming | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
+| Dynamic Programming | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/), [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
+| Linked_List |  |
 | String | [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |
 | Prefix-Sum | [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
 | Hash-Table | [1. Two Sum](https://leetcode.com/problems/two-sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
@@ -52,10 +57,10 @@ The repository is organized into the following directories:
 
 | Difficulty | Problems |
 | :--------- | :------- |
-| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
-| Hard | [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
+| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |
+| Hard | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | Medium | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
-| Unknown | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |
+| Unknown | [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
 
 ## How to Use (Optional)
 
