@@ -42,13 +42,13 @@ Algorithm:
 
 1. Sort the input array `nums`.
 2. Iterate through the array from left to right. For each element `nums[i]`:
-    *   If `nums[i]` is greater than 0, break the loop (because the array is sorted, there won't be any triplets that sum to 0 if the first element is positive).
-    *   If `nums[i]` is the same as the previous element `nums[i-1]`, skip it to avoid duplicate triplets.
-    *   Use two pointers, `lo` (starting at `i+1`) and `hi` (starting at the end of the array), to find two numbers that sum to `-nums[i]`.
-    *   Move the pointers towards each other based on the sum of the three numbers:
-        *   If the sum is less than 0, increment `lo`.
-        *   If the sum is greater than 0, decrement `hi`.
-        *   If the sum is equal to 0, add the triplet `[nums[i], nums[lo], nums[hi]]` to the result. Increment `lo` and decrement `hi`. Skip any duplicate elements at `lo` and `hi` to avoid duplicate triplets.
+    - If `nums[i]` is greater than 0, break the loop (because the array is sorted, there won't be any triplets that sum to 0 if the first element is positive).
+    - If `nums[i]` is the same as the previous element `nums[i-1]`, skip it to avoid duplicate triplets.
+    - Use two pointers, `lo` (starting at `i+1`) and `hi` (starting at the end of the array), to find two numbers that sum to `-nums[i]`.
+    - Move the pointers towards each other based on the sum of the three numbers:
+        - If the sum is less than 0, increment `lo`.
+        - If the sum is greater than 0, decrement `hi`.
+        - If the sum is equal to 0, add the triplet `[nums[i], nums[lo], nums[hi]]` to the result. Increment `lo` and decrement `hi`. Skip any duplicate elements at `lo` and `hi` to avoid duplicate triplets.
 
 Data Structures:
 
@@ -73,14 +73,14 @@ Algorithm:
 
 1. Sort the input array `nums`.
 2. Iterate through the array from left to right. For each element `nums[i]`:
- - If `nums[i]` is greater than 0, break the loop.
- - If `nums[i]` is the same as the previous element `nums[i-1]`, skip it.
- - Use a hash set `seen` to store the numbers encountered so far in the inner loop.
- - Iterate from `j = i + 1` to the end of the array. For each element `nums[j]`:
-  - Calculate the `complement` needed to reach a sum of 0: `complement = -nums[i] - nums[j]`.
-  - If the `complement` is found in the `seen` set, a triplet is found. Add `[nums[i], nums[j], complement]` to the result.
-  - Skip any duplicate elements at `j` to avoid duplicate triplets.
-  - Add `nums[j]` to the `seen` set.
+   - If `nums[i]` is greater than 0, break the loop.
+   - If `nums[i]` is the same as the previous element `nums[i-1]`, skip it.
+   - Use a hash set `seen` to store the numbers encountered so far in the inner loop.
+   - Iterate from `j = i + 1` to the end of the array. For each element `nums[j]`:
+     - Calculate the `complement` needed to reach a sum of 0: `complement = -nums[i] - nums[j]`.
+     - If the `complement` is found in the `seen` set, a triplet is found. Add `[nums[i], nums[j], complement]` to the result.
+     - Skip any duplicate elements at `j` to avoid duplicate triplets.
+   - Add `nums[j]` to the `seen` set.
 Data Structures:
 
 - Sorted array for efficient iteration and duplicate handling.
