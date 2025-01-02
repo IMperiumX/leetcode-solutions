@@ -15,9 +15,9 @@ The repository is organized into the following directories:
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
 | Easy | 8 | 100 | 8.0% |
-| Medium | 9 | 150 | 6.0% |
+| Medium | 10 | 150 | 6.7% |
 | Hard | 2 | 50 | 4.0% |
-| **Total** | **21** | **300** | **7.0%** |
+| **Total** | **22** | **300** | **7.3%** |
 
 ## Problems Solved
 
@@ -46,6 +46,7 @@ The repository is organized into the following directories:
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Unknown | [py](problems/0983-minimum-cost-for-tickets/solution.py), [py](problems/0983-minimum-cost-for-tickets/solutions_recursion.py) |
 | 1422 | [Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | Easy | [py](problems/1422-maximum-score-after-splitting-a-string/solution_one_pass.py), [py](problems/1422-maximum-score-after-splitting-a-string/solution_prefix_sum.py) |
 | 2466 | [Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) | Unknown | [py](problems/2466-count-ways-to-build-good-strings/solution.py) |
+| 2559 | [Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | [py](problems/2559-count-vowel-strings-in-ranges/solution_prefix_sum.py) |
 
 ### By Topic
 
@@ -65,7 +66,7 @@ The repository is organized into the following directories:
 | Linked_List |  |
 | String | [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |
 | Bit-Manipulation | [78. Subsets](https://leetcode.com/problems/subsets/) |
-| Prefix-Sum | [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
+| Prefix-Sum | [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [2559. Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) |
 | Hash-Table | [1. Two Sum](https://leetcode.com/problems/two-sum/), [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Matrix | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |
 | Backtracking | [78. Subsets](https://leetcode.com/problems/subsets/) |
@@ -76,7 +77,7 @@ The repository is organized into the following directories:
 | :--------- | :------- |
 | Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/), [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/), [1422. Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) |
 | Hard | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
-| Medium | [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [78. Subsets](https://leetcode.com/problems/subsets/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/), [235. Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
+| Medium | [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [78. Subsets](https://leetcode.com/problems/subsets/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/), [235. Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/), [2559. Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) |
 | Unknown | [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/), [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
 
 ## How to Use (Optional)
