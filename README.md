@@ -14,10 +14,10 @@ The repository is organized into the following directories:
 
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
-| Easy | 6 | 100 | 6.0% |
+| Easy | 7 | 100 | 7.0% |
 | Medium | 8 | 150 | 5.3% |
 | Hard | 2 | 50 | 4.0% |
-| **Total** | **18** | **300** | **6.0%** |
+| **Total** | **19** | **300** | **6.3%** |
 
 ## Problems Solved
 
@@ -30,6 +30,7 @@ The repository is organized into the following directories:
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [py](problems/0036-valid-sudoku/solution.py) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Hard | [py](problems/0053-maximum-subarray/solution_divide_conquer.py), [py](problems/0053-maximum-subarray/solution.py) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [py](problems/0078-subsets/solution_backtracking.py), [py](problems/0078-subsets/solution.py), [py](problems/0078-subsets/solution_bitwise.py) |
+| 104 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [py](problems/0104-maximum-depth-of-binary-tree/solution_recursive.py), [py](problems/0104-maximum-depth-of-binary-tree/solution_iterative_dfs.py), [py](problems/0104-maximum-depth-of-binary-tree/solution_iterative_bfs.py) |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [py](problems/0121-best-time-to-buy-and-sell-stock/solution.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [py](problems/0125-valid-palindrome/solution_reverse_string.py), [py](problems/0125-valid-palindrome/solution_two_pointers.py) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [py](problems/0128-longest-consecutive-sequence/solution.py) |
@@ -67,7 +68,7 @@ The repository is organized into the following directories:
 
 | Difficulty | Problems |
 | :--------- | :------- |
-| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/), [1422. Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) |
+| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/), [1422. Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) |
 | Hard | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | Medium | [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [78. Subsets](https://leetcode.com/problems/subsets/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Unknown | [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/), [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
