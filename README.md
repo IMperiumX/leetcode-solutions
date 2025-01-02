@@ -14,10 +14,10 @@ The repository is organized into the following directories:
 
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
-| Easy | 7 | 100 | 7.0% |
+| Easy | 8 | 100 | 8.0% |
 | Medium | 8 | 150 | 5.3% |
 | Hard | 2 | 50 | 4.0% |
-| **Total** | **19** | **300** | **6.3%** |
+| **Total** | **20** | **300** | **6.7%** |
 
 ## Problems Solved
 
@@ -37,6 +37,7 @@ The repository is organized into the following directories:
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [py](problems/0141-linked-list-cycle/solution.py) |
 | 167 | [Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [py](problems/0167-two-sum-ii-input-array-is-sorted/solution_binary_search.py), [py](problems/0167-two-sum-ii-input-array-is-sorted/solution_two_pointers.py) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [py](problems/0206-reverse-linked-list/solution_iterative.py), [py](problems/0206-reverse-linked-list/solution.py) |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [py](problems/0226-invert-binary-tree/solution_iterative.py), [py](problems/0226-invert-binary-tree/solution_recursive.py) |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [py](problems/0238-product-of-array-except-self/solution.py) |
 | 271 | [Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Medium | [py](problems/0271-encode-and-decode-strings/solution.py) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [py](problems/0347-top-k-frequent-elements/solution.py) |
@@ -54,7 +55,10 @@ The repository is organized into the following directories:
 | Bucket-Sort | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Array | [1. Two Sum](https://leetcode.com/problems/two-sum/), [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | Dynamic Programming | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/), [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
+| Breadth-First-Search | [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | Two-Pointers | [1. Two Sum](https://leetcode.com/problems/two-sum/), [15. 3Sum](https://leetcode.com/problems/3sum/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
+| Tree | [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
+| Depth-First-Search | [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | Binary-Search | [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
 | Linked_List |  |
 | String | [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |
@@ -68,7 +72,7 @@ The repository is organized into the following directories:
 
 | Difficulty | Problems |
 | :--------- | :------- |
-| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/), [1422. Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) |
+| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/), [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/), [1422. Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) |
 | Hard | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
 | Medium | [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [78. Subsets](https://leetcode.com/problems/subsets/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Unknown | [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/), [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
