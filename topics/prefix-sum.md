@@ -2,6 +2,9 @@
 
 ## Description
 
+A prefix sum array is a data structure that helps to efficiently calculate the sum of elements in a range of an array. Given an array `arr`, the prefix sum array `prefix_sum` is an array of the same length where `prefix_sum[i]` stores the sum of the first `i+1` elements of `arr`. In other words:
+`prefix_sum[i] = arr[0] + arr[1] + ... + arr[i]`
+
 The Prefix Sum technique, also known as cumulative sum, is a powerful algorithmic approach used to efficiently compute the sum of elements within a given range of an array. It involves creating a new array (prefix sum array) where each element at index `i` stores the sum of all elements in the original array from index 0 up to `i`. This precomputed array allows for constant-time retrieval of the sum of any subarray.
 
 ## Algorithm
@@ -15,6 +18,15 @@ The Prefix Sum technique, also known as cumulative sum, is a powerful algorithmi
 ## Key Idea
 
 The core idea behind the prefix sum technique is that the sum of any subarray `arr[l:r+1]` can be expressed as the difference between two prefix sums: the sum up to index `r` minus the sum up to index `l-1`.
+
+## Use Cases
+
+Prefix sums are useful in various scenarios, including:
+
+- **Range Sum Queries**: Answering multiple queries about the sum of elements in different ranges of an array.
+- **Finding Subarrays with a Given Sum**: Efficiently finding subarrays that satisfy specific sum conditions.
+- **Dynamic Programming**: As a building block in dynamic programming solutions.
+- **Image Processing**: Calculating cumulative sums in image data.
 
 ## Example
 
@@ -81,8 +93,10 @@ print(f"Sum of elements in range [{l}, {r}]: {sum_range}")
 
 ## Related LeetCode Problems
 
-- [2559. Count Vowel Strings in Ranges](./2559-count-vowel-strings-in-ranges/README.md)
+- [238. Product of Array Except Self](./../problems/0238-product-of-array-except-self/README.md)
 - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 - [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
-- [238. Product of Array Except Self](./../problems/0238-product-of-array-except-self/README.md)
+- [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 - [1413. Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
+- [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)
+- [2559. Count Vowel Strings in Ranges](./2559-count-vowel-strings-in-ranges/README.md)
