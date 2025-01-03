@@ -14,10 +14,10 @@ The repository is organized into the following directories:
 
 | Difficulty | Solved | Total | Percentage |
 | :--------- | :----- | :---- | :--------- |
-| Easy | 8 | 100 | 8.0% |
-| Medium | 10 | 150 | 6.7% |
+| Easy | 9 | 100 | 9.0% |
+| Medium | 12 | 150 | 8.0% |
 | Hard | 2 | 50 | 4.0% |
-| **Total** | **22** | **300** | **7.3%** |
+| **Total** | **25** | **300** | **8.3%** |
 
 ## Problems Solved
 
@@ -42,9 +42,12 @@ The repository is organized into the following directories:
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [py](problems/0238-product-of-array-except-self/solution.py) |
 | 271 | [Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Medium | [py](problems/0271-encode-and-decode-strings/solution.py) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [py](problems/0347-top-k-frequent-elements/solution.py) |
+| 543 | [Diameter Of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [py](problems/0543-diameter-of-binary-tree/solution_recursive.py) |
 | 689 | [Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [py](problems/0689-maximum-sum-of-3-non-overlapping-subarrays/solution.py) |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Unknown | [py](problems/0983-minimum-cost-for-tickets/solution.py), [py](problems/0983-minimum-cost-for-tickets/solutions_recursion.py) |
+| 1334 | [Find The City With The Smallest Number Of Neighbors At A Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [py](problems/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution_floyd_warshall.py), [py](problems/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution_dijkstra.py) |
 | 1422 | [Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | Easy | [py](problems/1422-maximum-score-after-splitting-a-string/solution_one_pass.py), [py](problems/1422-maximum-score-after-splitting-a-string/solution_prefix_sum.py) |
+| 2270 | [Number Of Ways To Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/) | Medium | [py](problems/2270-number-of-ways-to-split-array/solution.py) |
 | 2466 | [Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) | Unknown | [py](problems/2466-count-ways-to-build-good-strings/solution.py) |
 | 2559 | [Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | [py](problems/2559-count-vowel-strings-in-ranges/solution_prefix_sum.py) |
 
@@ -60,14 +63,16 @@ The repository is organized into the following directories:
 | Dynamic Programming | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/), [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
 | Breadth-First-Search | [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | Two-Pointers | [1. Two Sum](https://leetcode.com/problems/two-sum/), [15. 3Sum](https://leetcode.com/problems/3sum/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
+| Shortest Path Algorithms | [1334. Find The City With The Smallest Number Of Neighbors At A Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) |
 | Tree | [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | Depth-First-Search | [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | Binary-Search | [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
 | Linked_List |  |
 | String | [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |
 | Bit-Manipulation | [78. Subsets](https://leetcode.com/problems/subsets/) |
-| Prefix-Sum | [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [2559. Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) |
+| Prefix-Sum | [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [2270. Number Of Ways To Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/), [2559. Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) |
 | Hash-Table | [1. Two Sum](https://leetcode.com/problems/two-sum/), [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |
+| Graph | [1334. Find The City With The Smallest Number Of Neighbors At A Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) |
 | Matrix | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |
 | Backtracking | [78. Subsets](https://leetcode.com/problems/subsets/) |
 
@@ -75,9 +80,9 @@ The repository is organized into the following directories:
 
 | Difficulty | Problems |
 | :--------- | :------- |
-| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/), [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/), [1422. Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) |
+| Easy | [1. Two Sum](https://leetcode.com/problems/two-sum/), [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), [121. Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/), [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/), [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/), [543. Diameter Of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/), [1422. Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) |
 | Hard | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [689. Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |
-| Medium | [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [78. Subsets](https://leetcode.com/problems/subsets/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/), [235. Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/), [2559. Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) |
+| Medium | [15. 3Sum](https://leetcode.com/problems/3sum/), [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [78. Subsets](https://leetcode.com/problems/subsets/), [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/), [167. Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/), [235. Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), [238. Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/), [271. Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/), [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/), [1334. Find The City With The Smallest Number Of Neighbors At A Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/), [2270. Number Of Ways To Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/), [2559. Count Vowel Strings In Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) |
 | Unknown | [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/), [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) |
 
 ## How to Use (Optional)
