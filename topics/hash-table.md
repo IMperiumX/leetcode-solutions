@@ -13,6 +13,14 @@ Hash tables are commonly used to implement associative arrays, database indexing
 - **Collision Handling:** When two different keys produce the same hash code, a collision occurs. Hash tables need a mechanism to handle collisions, as multiple key-value pairs may need to be stored in the same bucket.
 - **Load Factor:** The load factor of a hash table is the ratio of the number of key-value pairs stored in the table to the number of buckets. It is a measure of how full the hash table is.
 
+## Hash Function
+
+A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. A good hash function should:
+
+- Be deterministic: The same input should always produce the same hash value.
+- Be efficient to compute: The hash function should be fast to calculate.
+- Distribute keys evenly: The hash function should distribute keys uniformly across the hash table to minimize collisions.
+
 ## Collision Handling Techniques
 
 There are several techniques for handling collisions in hash tables:
@@ -34,6 +42,8 @@ The performance of a hash table depends on the quality of the hash function, the
 
 However, in the worst case (e.g., all keys hash to the same bucket), the time complexity can degrade to O(n), where n is the number of key-value pairs.
 
+The worst case occurs when all keys hash to the same bucket, effectively turning the hash table into a linked list.
+
 ## Space Complexity
 
 The space complexity of a hash table depends on the number of buckets, the load factor, and the collision handling technique. In general, hash tables have a space complexity of O(n), where n is the number of key-value pairs stored.
@@ -51,33 +61,13 @@ The space complexity of a hash table depends on the number of buckets, the load 
 - **Unordered:** Hash tables do not maintain the order of elements, which may be a limitation for some applications.
 - **Hash Function Dependency:** The performance of a hash table heavily depends on the quality of the hash function used.
 
-## Example (Python)
+## Use Cases
 
-```python
-# Creating a dictionary (hash table)
-my_dict = {"apple": 1, "banana": 2, "cherry": 3}
-
-# Inserting a key-value pair
-my_dict["date"] = 4
-
-# Accessing a value by key
-print(my_dict["apple"])  # Output: 1
-
-# Deleting a key-value pair
-del my_dict["banana"]
-
-# Checking if a key exists
-if "cherry" in my_dict:
-    print("Cherry is in the dictionary")
-
-# Iterating through the keys
-for key in my_dict:
-    print(key, my_dict[key])
-
-# Iterating through key-value pairs
-for key, value in my_dict.items():
-    print(key, value)
-```
+- **Database Indexing:** Hash tables are used to create indexes for fast data retrieval in databases.
+- **Caching:** They can be used to implement caches to store frequently accessed data.
+- **Symbol Tables in Compilers:** Hash tables store identifiers and their associated information during compilation.
+- **Spell Checkers:** They can store dictionaries of words for quick spell checking.
+- **Associative Arrays in Programming Languages:** Many programming languages implement associative arrays (like dictionaries in Python or maps in Java) using hash tables.
 
 ## Problems
 
@@ -91,3 +81,4 @@ for key, value in my_dict.items():
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [347. Top K Frequent Elements](./../problems/0347-top-k-frequent-elements/README.md)
+- [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)
