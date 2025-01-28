@@ -56,3 +56,4 @@ An array is a fundamental data structure in computer science that stores a colle
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](./../problems/0689-maximum-sum-of-3-non-overlapping-subarrays/README.md)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
+- [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
