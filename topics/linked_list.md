@@ -36,6 +36,14 @@ There are several types of linked lists, including:
 
 \* O(1) if you have a pointer to the tail node.
 
+## Applications
+
+* Implementing stacks and queues.
+* Dynamic memory allocation.
+* Representing polynomial equations.
+* Implementing hash tables (chaining).
+* Situations where frequent insertions and deletions are needed, especially at the beginning or end (with a tail pointer).
+
 ## Advantages of Linked Lists
 
 * **Dynamic Size:** Linked lists can grow or shrink dynamically as needed.
@@ -94,8 +102,10 @@ my_list.print_list()  # Output: 1 -> 2 -> 3 -> None
 
 ## Related LeetCode Problems
 
-206. Reverse Linked List
-21. Merge Two Sorted Lists
-141. Linked List Cycle
-2. Add Two Numbers
-234. Palindrome Linked List
+* [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+* [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+* [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+* [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+* [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+* [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+* [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
