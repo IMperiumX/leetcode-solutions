@@ -60,3 +60,6 @@ def minLength(s: str) -> int:
             count += 1
 
     return count
+if __name__ == "__main__":
+    min_length = minLength("aabccabba")
+    print(min_length)
