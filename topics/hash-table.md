@@ -8,10 +8,26 @@ Hash tables are commonly used to implement associative arrays, database indexing
 
 ## Key Concepts
 
-- **Hash Function:** A hash function is a function that takes a key as input and returns an integer value, called a hash code or hash value. The hash code is used as an index into the hash table's underlying array.
-- **Buckets:** A hash table is typically implemented as an array of buckets (or slots). Each bucket can store one or more key-value pairs.
-- **Collision Handling:** When two different keys produce the same hash code, a collision occurs. Hash tables need a mechanism to handle collisions, as multiple key-value pairs may need to be stored in the same bucket.
-- **Load Factor:** The load factor of a hash table is the ratio of the number of key-value pairs stored in the table to the number of buckets. It is a measure of how full the hash table is.
+- **Hash Function:** A function that maps keys to indices in the hash table's array. A good hash function should:
+  - Be deterministic (same key always produces the same hash value).
+  - Be efficient to compute.
+  - Distribute keys uniformly across the hash table to minimize collisions.
+- **Collision:** When two different keys hash to the same index.
+- **Collision Resolution:** Techniques for handling collisions:
+  - **Separate Chaining:** Each bucket stores a linked list (or other data structure) of elements that hash to the same index.
+  - **Open Addressing:** If a collision occurs, probe for the next available slot in the array using a probing sequence (e.g., linear probing, quadratic probing, double hashing).
+- **Load Factor:** The ratio of the number of elements stored in the hash table to the number of buckets. It indicates how full the hash table is. A high load factor can increase the likelihood of collisions and degrade performance.
+- **Rehashing:** The process of resizing the hash table (increasing the number of buckets) and redistributing the elements when the load factor exceeds a certain threshold. This helps maintain good performance.
+
+## Operations
+
+- **insert(key, value):** Inserts a key-value pair into the hash table.
+- **get(key):** Retrieves the value associated with a given key.
+- **remove(key):** Removes the key-value pair associated with a given key.
+- **containsKey(key):** Checks if the hash table contains a given key.
+- **containsValue(value):** Checks if the hash table contains a given value (less efficient than `containsKey`).
+- **size():** Returns the number of key-value pairs in the hash table.
+- **isEmpty():** Checks if the hash table is empty.
 
 ## Hash Function
 
@@ -44,9 +60,20 @@ However, in the worst case (e.g., all keys hash to the same bucket), the time co
 
 The worst case occurs when all keys hash to the same bucket, effectively turning the hash table into a linked list.
 
+**Note:** The worst-case time complexity for these operations can be O(n) if there are many collisions (e.g., all keys hash to the same bucket). However, with a good hash function and a reasonable load factor, the average time complexity is typically O(1).
+
 ## Space Complexity
 
 The space complexity of a hash table depends on the number of buckets, the load factor, and the collision handling technique. In general, hash tables have a space complexity of O(n), where n is the number of key-value pairs stored.
+
+## Applications
+
+- **Implementing dictionaries and associative arrays.**
+- **Database indexing.**
+- **Caching.**
+- **Symbol tables in compilers and interpreters.**
+- **Spell checking.**
+- **String matching algorithms.**
 
 ## Advantages
 
@@ -78,6 +105,7 @@ The space complexity of a hash table depends on the number of buckets, the load 
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
   - Demonstrates the use of a hash table (dictionary in Python) to efficiently count the frequency of elements in an array, which is a crucial step in solving the problem.
 - [128. Longest Consecutive Sequence](./../problems/0128-longest-consecutive-sequence/README.md)
+- [202. Happy Number](https://leetcode.com/problems/happy-number/)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [347. Top K Frequent Elements](./../problems/0347-top-k-frequent-elements/README.md)
