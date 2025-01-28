@@ -42,7 +42,7 @@ The repository is organized into the following directories:
 | 235 | [Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [py](problems/0235-lowest-common-ancestor-of-a-binary-search-tree/solution_recursive.py), [py](problems/0235-lowest-common-ancestor-of-a-binary-search-tree/solution_iterative.py) |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [py](problems/0238-product-of-array-except-self/solution.py) |
 | 271 | [Encode And Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Medium | [py](problems/0271-encode-and-decode-strings/solution.py) |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [py](problems/0347-top-k-frequent-elements/solution.py) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [py](problems/0347-top-k-frequent-elements/solution_heap.py), [py](problems/0347-top-k-frequent-elements/solution_bucket_sort.py) |
 | 543 | [Diameter Of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [py](problems/0543-diameter-of-binary-tree/solution_recursive.py) |
 | 689 | [Maximum Sum Of 3 Non Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [py](problems/0689-maximum-sum-of-3-non-overlapping-subarrays/solution.py) |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Unknown | [py](problems/0983-minimum-cost-for-tickets/solutions_recursion.py), [py](problems/0983-minimum-cost-for-tickets/solution.py) |
