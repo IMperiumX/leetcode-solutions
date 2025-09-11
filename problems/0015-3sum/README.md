@@ -100,8 +100,8 @@ Trade-offs:
 
 ## Code
 
-[Two Pointers Approach](./solution_two_pointers.py)
-[Hash Set Approach](./solution_hashset.py)
+- [Two Pointers Approach](./solution_two_pointers.py)
+- [Hash Set Approach](./solution_hashset.py)
 
 ## Notes
 

@@ -43,17 +43,17 @@ An array is a fundamental data structure in computer science that stores a colle
 ## Related LeetCode Problems
 
 - [1. Two Sum](./../problems/0001-two-sum/README.md)
-- [15. 3Sum](./0015-3sum/README.md)
+- [15. 3Sum](../problems/0015-3sum/README.md)
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - [27. Remove Element](https://leetcode.com/problems/remove-element/)
 
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [238. Product of Array Except Self](./../problems/0238-product-of-array-except-self/README.md)
+- [53. Maximum Subarray](../problems/0053-maximum-subarray/README.md)
+- [238. Product of Array Except Self](../problems/0238-product-of-array-except-self/README.md)
 - [36. Valid Sudoku](./../problems/0036-valid-sudoku/README.md)
-- [128. Longest Consecutive Sequence](./../problems/0128-longest-consecutive-sequence/README.md)
+- [128. Longest Consecutive Sequence](../problems/0128-longest-consecutive-sequence/README.md)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](./../problems/0689-maximum-sum-of-3-non-overlapping-subarrays/README.md)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../problems/0689-maximum-sum-of-3-non-overlapping-subarrays/README.md)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
 - [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
