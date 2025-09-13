@@ -130,3 +130,62 @@ dfs_iterative(root)  # Output: 1 2 4 5 3
 * [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 * [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 * [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+
+# Depth-First Search (DFS)
+
+Depth-First Search (DFS) is a graph traversal algorithm that explores a graph by going as deep as possible along each branch before backtracking. It's a fundamental algorithm used in many graph-related problems.
+
+## Key Concepts
+
+* **Traversal:** DFS systematically visits all reachable nodes in a graph.
+* **Recursion (or Explicit Stack):** DFS is typically implemented recursively, which implicitly uses the call stack.  It can also be implemented iteratively using an explicit stack.
+* **Visited Set:**  A data structure (usually a set or an array) is used to keep track of visited nodes to avoid cycles and redundant visits.
+* **Backtracking:** When DFS reaches a node with no unvisited neighbors, it backtracks to the previous node and explores other branches.
+
+## Algorithm (Recursive)
+
+1. **Start Node:** Choose a starting node.
+2. **Mark Visited:** Mark the current node as visited.
+3. **Explore Neighbors:** For each unvisited neighbor of the current node:
+    * Recursively call DFS on the neighbor.
+4. **Backtrack:**  Once all neighbors have been explored, the function returns (backtracks).
+
+## Algorithm (Iterative - using a stack)
+
+1. **Start Node:** Choose a starting node.
+2. **Initialize Stack:** Create an empty stack and push the starting node onto it.
+3. **Mark Visited Set** Initialize a visited set
+4. **Iterate:** While the stack is not empty:
+    * Pop a node from the stack.
+    * If the node has not been visited:
+        * Mark the node as visited.
+        * Push all unvisited neighbors of the node onto the stack.
+
+## Applications of DFS
+
+* **Cycle Detection:**  Detecting cycles in a graph.
+* **Topological Sorting:** Finding a linear ordering of nodes in a directed acyclic graph (DAG).
+* **Path Finding:** Finding a path between two nodes.
+* **Connectivity Checking:** Determining if a graph is connected.
+* **Solving Mazes and Puzzles:** Exploring possible solutions in a systematic way.
+* **Tree Traversals (Preorder, Inorder, Postorder):**  DFS forms the basis of these tree traversal methods.
+
+## Advantages of DFS
+
+* **Simple Implementation:**  Relatively easy to implement, especially recursively.
+* **Memory Efficiency (in some cases):** For tree-like structures, DFS can use less memory than BFS.
+* **Detecting cycles**
+
+## Disadvantages of DFS
+
+* **Not Optimal for Shortest Paths:** DFS does not guarantee finding the shortest path between two nodes.  BFS is better suited for that purpose.
+* **Can Get Stuck in Deep Branches:**  In very large or infinite graphs, DFS might get stuck exploring a very deep branch without finding a solution.
+
+## Related LeetCode Problems
+
+* [207. Course Schedule](./0207-course-schedule)
+* [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+* [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+* [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
+* [100. Same Tree](https://leetcode.com/problems/same-tree)
+* [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree)

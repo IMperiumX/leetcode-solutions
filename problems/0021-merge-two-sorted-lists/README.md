@@ -2,21 +2,21 @@ Okay, let's generate the LeetCode solution repository for the "Merge Two Sorted 
 
 **Step 1: Problem Identification**
 
-*   **Prompt 1:** "Identify the LeetCode problem from the following input: `You are given the heads of two sorted linked lists list1 and list2. ... -100 <= Node.val <= 100 ...`"
+* **Prompt 1:** "Identify the LeetCode problem from the following input: `You are given the heads of two sorted linked lists list1 and list2. ... -100 <= Node.val <= 100 ...`"
 
-*   **Analysis:** The input describes the "Merge Two Sorted Lists" problem. The constraints and examples confirm this.
+* **Analysis:** The input describes the "Merge Two Sorted Lists" problem. The constraints and examples confirm this.
 
-*   **Output:** Problem Number: 21, Problem Name: Merge Two Sorted Lists, Difficulty: Easy (based on common knowledge, we can confirm later if needed).
+* **Output:** Problem Number: 21, Problem Name: Merge Two Sorted Lists, Difficulty: Easy (based on common knowledge, we can confirm later if needed).
 
 **Step 2: Problem File Creation**
 
-*   We create a directory named `0021-merge-two-sorted-lists`.
+* We create a directory named `0021-merge-two-sorted-lists`.
 
 **Step 3: Solution File Generation**
 
-*   **Prompt 3.2** (No solution provided): "Generate solutions in Python for the LeetCode problem: `Merge Two Sorted Lists` (Number: `21`)."
+* **Prompt 3.2** (No solution provided): "Generate solutions in Python for the LeetCode problem: `Merge Two Sorted Lists` (Number: `21`)."
 
-*   **File: `0021-merge-two-sorted-lists/solution.py`** (Iterative Approach)
+* **File: `0021-merge-two-sorted-lists/solution.py`** (Iterative Approach)
 
 ```python
 # 21. Merge Two Sorted Lists - Iterative Approach
@@ -54,7 +54,8 @@ def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
 
     return dummy_head.next
 ```
-*   **File: `0021-merge-two-sorted-lists/solution_recursive.py`** (Recursive Approach)
+
+* **File: `0021-merge-two-sorted-lists/solution_recursive.py`** (Recursive Approach)
 
 ```python
 # 21. Merge Two Sorted Lists - Recursive Approach
@@ -90,9 +91,9 @@ def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
 
 **Step 4: Problem README Generation**
 
-*   **Prompt 4:** Generate README.md
+* **Prompt 4:** Generate README.md
 
-*   **File: `0021-merge-two-sorted-lists/README.md`**
+* **File: `0021-merge-two-sorted-lists/README.md`**
 
 ```markdown
 # 21. Merge Two Sorted Lists, Difficulty: Easy
@@ -204,7 +205,7 @@ Trade-offs:
 *Prompt:* Topic Extraction from solution and problem description.
 *Analysis*: The problem clearly involves "Linked List" and "Recursion" (for the recursive solution). Also, "Two Pointers" can be associated with iterative solution.
 
-*   Create a file named `Linked List.md`.
+* Create a file named `Linked List.md`.
 
 ```markdown
 # Linked List
@@ -300,7 +301,7 @@ Recursion is well-suited for problems that have a recursive structure, such as:
 
 ```
 
-*   Create a file named `Two Pointers.md`.
+* Create a file named `Two Pointers.md`.
 
 ```markdown
 # Two Pointers
@@ -340,3 +341,94 @@ The Two Pointers technique is a common algorithmic approach used to solve proble
 ```
 
 This comprehensive response creates the solution files, a detailed README, and well-structured topic explanations for "Linked List", "Recursion," and "Two Pointers", all correctly linked and organized. It covers both iterative and recursive solutions, explains their complexities and trade-offs, and provides a complete repository structure.
+
+---
+---
+---
+
+* The time complexity of the provided `mergeTwoLists` function is **O(n + m)**, where:
+* **n** is the number of nodes in `list1`.
+* **m** is the number of nodes in `list2`.
+
+### Explanation
+
+  The function merges two sorted singly linked lists into one sorted linked list. Here's why the time complexity is O(n + m):
+
+  1. **Initialization**:
+
+* A dummy node is created to simplify edge cases, and a `current` pointer is initialized to this dummy node.
+
+   2. **Merging Process**:
+
+* The `while` loop runs as long as both `list1` and `list2` have nodes.
+* In each iteration:
+  * It compares the values of the current nodes of `list1` and `list2`.
+  * Appends the smaller node to the merged list by setting `current.next`.
+  * Moves the pointer (`list1` or `list2`) forward.
+  * Advances the `current` pointer.
+
+    3. **Appending Remaining Nodes**:
+* After one of the lists is exhausted, the remaining nodes of the other list are appended to the merged list.
+* This ensures that all nodes from both lists are included.
+
+### Time Complexity Breakdown
+
+* **Comparisons and Node Linking**:
+  * Each node from both lists is visited exactly once.
+  * For each node, only constant time operations are performed (comparison and pointer assignment).
+* **Total Operations**:
+  * The total number of iterations in the `while` loop is proportional to the total number of nodes in both lists.
+  * After the loop, appending the remaining nodes is also proportional to the number of remaining nodes.
+* **Overall Complexity**:
+  * Since each of the **n** and **m** nodes is processed once, the total time complexity is **O(n + m)**.
+
+### Conclusion
+
+  The function efficiently merges the two lists by only traversing each node once, leading to a linear time complexity relative to the sizes of the input lists.
+
+  **Answer:** O(n + m), where n and m are the lengths of the input lists; each node is processed once.
+
+---
+
+* The space complexity of the provided `mergeTwoLists` function is **O(1)**, which means it uses constant extra space regardless of the input sizes.
+
+### Explanation
+
+  The function merges two sorted singly linked lists into one sorted linked list by rearranging the existing nodes. Here's a detailed breakdown of the space usage:
+
+1. **Initialization**:
+
+* **Dummy Node**: A single dummy node is created using `ListNode(0)`. This node serves as the starting point of the merged list and simplifies edge cases.
+* **Pointers**:
+  * `current`: A pointer initialized to the dummy node. It is used to build the merged list.
+  * `list1`, `list2`: Pointers to traverse the input lists.
+* All these pointers and the dummy node consume **constant space**.
+
+2. **Merging Process**:
+
+* The function uses a `while` loop to iterate through the nodes of `list1` and `list2`.
+* It compares the values of the current nodes and adjusts the `next` pointers to build the merged list.
+* **No new nodes are created during this process**; the existing nodes from `list1` and `list2` are rearranged.
+* All operations within the loop are done **in-place**, using existing nodes and pointers.
+
+3. **Appending Remaining Nodes**:
+
+* After one of the lists is exhausted, the function appends the remaining nodes of the other list to the merged list.
+* This is done by pointing `current.next` to the remaining nodes.
+* Again, **no additional space** is required for this step.
+
+### Space Complexity Breakdown
+
+* **Extra Space Used**:
+  * **Dummy Node**: One node (`ListNode`) is created, which requires constant space **O(1)**.
+  * **Pointers/Variables**: The function uses a fixed number of variables (`current`, `list1`, `list2`), each consuming constant space.
+* **In-Place Operations**:
+  * The function rearranges the `next` pointers of existing nodes. It doesn't allocate additional space proportional to the input sizes.
+  * All modifications are made directly on the input lists' nodes.
+* **Overall Space Complexity**:
+  * Since the extra space used does not depend on the lengths of `list1` or `list2`, it is considered **constant space**.
+  * **Space Complexity: O(1)**.
+
+### Conclusion
+
+  The function effectively merges two lists by reusing and rearranging existing nodes without allocating significant additional space. It only uses a small, constant amount of extra space for the dummy node and a few pointers.

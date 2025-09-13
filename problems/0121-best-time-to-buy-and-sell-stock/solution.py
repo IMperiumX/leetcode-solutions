@@ -59,4 +59,5 @@ class Solution:
 
 sol = Solution()
 max_profit = sol.maxProfit([7, 3, 1, 6])
-print(max_profit)
+max_profit2 = sol.maxProfit2([7, 3, 1, 6])
+print(max_profit, max_profit2)
