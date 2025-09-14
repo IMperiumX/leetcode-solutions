@@ -36,3 +36,13 @@ def canFinish(numCourses, prerequisites):
                 queue.append(neighbor)
 
     return count == numCourses
+
+
+if __name__ == "__main__":
+    print(canFinish(4, [[1, 0], [0, 2], [2, 1], [3, 0]]))  # False
+    print(canFinish(2, [[1, 0]]))  # True
+    print(canFinish(2, [[1, 0], [0, 1]]))  # False
+    print(canFinish(3, [[1, 0], [0, 2], [2, 1]]))  # False
+
+    print(canFinish(3, [[1, 0], [0, 2], [2, 1]]))  # False
+    print(canFinish(4, [[1, 0], [0, 2], [2, 1], [3, 0]]))  # True

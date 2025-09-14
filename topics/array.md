@@ -40,6 +40,25 @@ An array is a fundamental data structure in computer science that stores a colle
 - When the number of elements is known in advance (for fixed-size arrays).
 - When you need a simple and efficient data structure for basic operations.
 
+## Topic: Array
+
+An **array** is a fundamental data structure consisting of a collection of elements, each identified by at least one array index or key. Arrays are stored in contiguous memory locations, which allows for efficient access to any element by its index, typically in constant time, $O(1)$.
+
+### Key Characteristics
+
+- **Indexed Access:** Elements are accessed via their numerical index (e.g., `my_array[5]`).
+- **Contiguous Memory:** Elements are stored next to each other in memory, which is great for cache performance.
+- **Fixed or Dynamic Size:** In some languages (like C++ or Java), arrays have a fixed size defined at creation. In others (like Python lists), they are dynamic and can grow or shrink.
+- **Homogeneous Elements:** Typically, arrays store elements of the same data type.
+
+### Common Operations
+
+- **Access:** `array[i]` - $O(1)$
+- **Search (Unsorted):** Requires iterating through elements - $O(n)$
+- **Search (Sorted):** Can use binary search - $O(\\log n)$
+- **Insertion/Deletion (at end):** Amortized $O(1)$ for dynamic arrays.
+- **Insertion/Deletion (at beginning/middle):** Requires shifting elements - $O(n)$
+
 ## Related LeetCode Problems
 
 - [1. Two Sum](./../problems/0001-two-sum/README.md)
@@ -47,12 +66,12 @@ An array is a fundamental data structure in computer science that stores a colle
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - [27. Remove Element](https://leetcode.com/problems/remove-element/)
-
-- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [53. Maximum Subarray](../problems/0053-maximum-subarray/README.md)
-- [238. Product of Array Except Self](../problems/0238-product-of-array-except-self/README.md)
 - [36. Valid Sudoku](./../problems/0036-valid-sudoku/README.md)
+- [53. Maximum Subarray](../problems/0053-maximum-subarray/README.md)
 - [128. Longest Consecutive Sequence](../problems/0128-longest-consecutive-sequence/README.md)
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [209. Minimum Size Subarray Sum](../problems/0209-minimum-size-subarray-sum/README.md)
+- [238. Product of Array Except Self](../problems/0238-product-of-array-except-self/README.md)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](../problems/0689-maximum-sum-of-3-non-overlapping-subarrays/README.md)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)

@@ -75,7 +75,30 @@ def binary_search(array, target):
 * **Recursive Binary Search:** The algorithm can be implemented recursively, though the iterative version is often preferred for its space efficiency.
 * **Lower Bound/Upper Bound:** Finding the index of the first element greater than or equal to (lower bound) or strictly greater than (upper bound) a target value.
 
+## Topic: Binary Search
+
+**Binary Search** is a highly efficient search algorithm that works on **sorted** data structures. It follows a "divide and conquer" strategy to quickly narrow down the possible locations of a target value. 🕵️‍♂️
+
+### Algorithm
+
+1. Compare the target value with the middle element of the sorted collection.
+2. If the target matches the middle element, its position is found.
+3. If the target is less than the middle element, continue the search on the left half of the collection.
+4. If the target is greater than the middle element, continue the search on the right half.
+5. Repeat until the value is found or the search interval is empty.
+
+### Complexity
+
+* **Time Complexity:** $O(\\log n)$. With each step, the algorithm halves the size of the search space, making it incredibly fast for large datasets.
+* **Space Complexity:** $O(1)$ for the iterative version.
+
+### Prerequisites
+
+* The data collection (e.g., array) **must be sorted**. If it's not sorted, you must sort it first, which typically adds an $O(n \\log n)$ preprocessing step.
+
 ## Problems Related to Binary Search
+
+* [209. Minimum Size Subarray Sum](../problems/0209-minimum-size-subarray-sum/README.md)
 
 1. [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 2. [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
