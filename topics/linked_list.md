@@ -109,3 +109,43 @@ my_list.print_list()  # Output: 1 -> 2 -> 3 -> None
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 * [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+
+# Linked List
+
+A linked list is a linear data structure where each element (called a node) contains a value and a pointer (or reference) to the next node in the sequence. Unlike arrays, linked lists do not store elements in contiguous memory locations.
+
+## Types of Linked Lists
+
+* **Singly Linked List:** Each node has a pointer to the next node only.
+* **Doubly Linked List:** Each node has pointers to both the next and previous nodes.
+* **Circular Linked List:** The last node's pointer points back to the first node, forming a cycle.
+
+## Advantages of Linked Lists
+
+* **Dynamic Size:** Linked lists can grow or shrink dynamically as needed, unlike arrays which have a fixed size (or require resizing).
+* **Efficient Insertion and Deletion:** Inserting or deleting a node in a linked list only requires updating pointers, which can be done in O(1) time if you have a pointer to the node before the insertion/deletion point. In contrast, inserting or deleting in the middle of an array can require shifting elements, which takes O(n) time.
+* **No wasted space:** Because a linked list only takes memory space that it is using.
+
+## Disadvantages of Linked Lists
+
+* **No Random Access:** Accessing an element at a specific index in a linked list requires traversing the list from the beginning, which takes O(n) time. Arrays allow O(1) random access.
+* **Extra Memory Overhead:** Each node in a linked list requires extra memory to store the pointer(s).
+* **Cache Inefficiency:** Due to non-contiguous memory allocation, linked lists can have poor cache performance compared to arrays.
+
+## Common Linked List Operations
+
+* **Traversal:** Visiting each node in the list.
+* **Insertion:** Adding a new node at the beginning, end, or a specific position.
+* **Deletion:** Removing a node from the beginning, end, or a specific position.
+* **Searching:** Finding a node with a specific value.
+* **Reversal:** Reversing the order of the nodes in the list.
+
+## LeetCode Problems Related to Linked Lists
+
+* [21. Merge Two Sorted Lists](0021-merge-two-sorted-lists/README.md)
+* [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+* [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+* [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+* [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+* [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+* [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
