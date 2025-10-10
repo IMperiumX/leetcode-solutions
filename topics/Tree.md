@@ -86,3 +86,50 @@ inorder_traversal(root)  # Output: 4 2 5 1 3
 * [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 * [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)
+
+# Trees
+
+Trees are a fundamental non-linear data structure in computer science. They consist of nodes connected by edges, forming a hierarchical structure. Unlike linear data structures like arrays or linked lists, trees can represent relationships between data elements in a more complex and intuitive way.
+
+## Key Concepts
+
+* **Node:** The basic building block of a tree. Each node contains data and may have links (pointers) to other nodes.
+* **Root:** The topmost node in a tree.  It is the only node without a parent.
+* **Parent:** A node that has one or more child nodes.
+* **Child:** A node that is connected to a parent node.
+* **Leaf:** A node with no children.
+* **Edge:** A connection between two nodes.
+* **Depth (of a node):** The number of edges from the root to the node.
+* **Height (of a node):** The number of edges on the longest path from the node to a leaf.  The height of a tree is the height of its root.
+* **Subtree:** A tree consisting of a node and all its descendants.
+
+## Types of Trees
+
+* **Binary Tree:** Each node has at most two children (left and right). This is a very common type of tree.
+* **Binary Search Tree (BST):** A binary tree with the property that for each node, all values in the left subtree are less than the node's value, and all values in the right subtree are greater than the node's value. This allows for efficient searching, insertion, and deletion.
+* **Balanced Tree:** A tree where the heights of the left and right subtrees of any node differ by at most 1 (e.g., AVL trees, Red-Black trees).  Balanced trees help prevent worst-case scenarios for operations like searching in BSTs.
+* **N-ary Tree:** Each node can have up to N children.
+* **Trie (Prefix Tree):**  A specialized tree used for storing strings, where each node represents a character and paths from the root to a node represent prefixes.
+
+## Common Tree Traversals
+
+* **Inorder Traversal (for Binary Trees):** Visit the left subtree, then the current node, then the right subtree.  For BSTs, this visits nodes in sorted order.
+* **Preorder Traversal:** Visit the current node, then the left subtree, then the right subtree.
+* **Postorder Traversal:** Visit the left subtree, then the right subtree, then the current node.
+* **Level Order Traversal (Breadth-First Search):** Visit nodes level by level, from top to bottom and left to right.
+
+## Common Tree Operations
+
+* **Insertion:** Adding a new node to the tree.
+* **Deletion:** Removing a node from the tree.
+* **Search:** Finding a node with a specific value.
+* **Traversal:** Visiting all nodes in a specific order.
+* **Checking for properties:** Determining if the tree satisfies certain conditions, such as being balanced or being a valid BST.
+
+## Related LeetCode Problems
+
+* [100. Same Tree](./0100-same-tree)
+* [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+* [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+* [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+* [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
