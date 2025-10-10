@@ -2,6 +2,8 @@
 
 ## Problem Description
 
+chat: <https://gemini.google.com/app/90d6763913fb1643>
+
 Given an integer array `nums` and an integer `k`, return the *k* most frequent elements. You may return the answer in **any order**.
 
 **Example 1:**
