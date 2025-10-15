@@ -102,7 +102,7 @@ The repository is organized into the following directories:
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium |  |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium |  |
-| 200 | [Number Of Islands](https://leetcode.com/problems/number-of-islands/) | Medium |  |
+| 200 | [Number Of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [py](problems/0200-number-of-islands/solution_bfs.py), [py](problems/0200-number-of-islands/solution_dfs.py) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [py](problems/0206-reverse-linked-list/solution_iterative.py), [py](problems/0206-reverse-linked-list/solution.py) |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [py](problems/0207-course-schedule/solution_bfs.py), [py](problems/0207-course-schedule/solution_dfs.py) |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [py](problems/0209-minimum-size-subarray-sum/solution_binary_search.py), [py](problems/0209-minimum-size-subarray-sum/solution_sliding_window.py) |
