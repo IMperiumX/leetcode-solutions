@@ -70,3 +70,37 @@ Strings are used extensively in programming for a wide variety of tasks, includi
 - [271. Encode and Decode Strings](./../problems/0271-encode-and-decode-strings/README.md)
 - [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)
 - [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/)
+
+A string is a sequence of characters. In many programming languages, strings are immutable, meaning that once a string is created, its contents cannot be changed. Operations that appear to modify a string actually create a new string.
+Strings are fundamental data types used in almost every programming task.
+
+## Common String Operations
+
+- **Concatenation**: Joining two or more strings together.
+
+- **Substring**: Extracting a portion of a string.
+- **Length**: Finding the number of characters in a string.
+- **Comparison**: Comparing two strings lexicographically (alphabetical order).
+- **Searching**: Finding the occurrence of a substring within a string.
+- **Replacing**: Replacing parts of a string with another string.
+- **Splitting**: Dividing a string into a list of substrings based on a delimiter.
+- **Trimming**: Removing whitespace from the beginning and end of a string.
+- **Case Conversion**: Converting a string to uppercase or lowercase.
+- **Indexing/Slicing:** Access individual characters or ranges.
+
+## String Manipulation Techniques
+
+- **Two Pointers**: Using two pointers to traverse a string, often from opposite ends or to maintain a window.
+- **Sliding Window**: Moving a fixed-size window across the string to process substrings.
+- **String Building**: Efficiently creating new strings, especially when performing repeated concatenation (using techniques like `StringBuilder` in Java or accumulating characters in a list and joining them in Python).
+- **Regular Expressions**: Using patterns to search, match, and manipulate strings.
+
+## LeetCode Problems Related to Strings
+
+- [20. Valid Parentheses](0020-valid-parentheses/README.md)
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+- [344. Reverse String](https://leetcode.com/problems/reverse-string/)

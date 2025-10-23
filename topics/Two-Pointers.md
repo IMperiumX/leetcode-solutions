@@ -159,3 +159,51 @@ The Two Pointers technique is a common algorithmic approach used to solve proble
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (fast and slow pointers)
 * [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+The Two Pointers technique is a common algorithmic pattern used to solve problems involving arrays or linked lists. It involves using two integer indices (pointers) that either iterate towards each other, away from each other, or move in the same direction at different speeds. This technique often helps to reduce the time complexity of a problem to O(n) and the space complexity to O(1).
+
+## Key Concepts
+
+* **Pointers:** Integer indices used to track positions in a data structure.
+* **Iteration:** The pointers move through the data structure based on certain conditions.
+* **In-Place Modification:** The technique is often used to modify data structures in-place, without using extra memory.
+
+## Common Patterns
+
+* **Opposite Ends:**
+  * One pointer starts at the beginning, and the other starts at the end. They move towards each other.
+  * **Example:** Finding a pair of elements that sum to a target in a sorted array (Two Sum II).
+  * **Example:** Reversing a string or an array.
+* **Same Direction (Fast and Slow):**
+  * Both pointers start at the beginning, but one moves faster than the other.
+  * **Example:** Detecting a cycle in a linked list.
+  * **Example:** Finding the middle of a linked list.
+* **Two Separate Arrays:**
+  * Each pointer iterates through a different array.
+  * **Example:** Merging two sorted arrays.
+  * **Example:** Finding the intersection of two sorted arrays.
+
+## Time and Space Complexity
+
+* **Time:**  Typically O(n), as each element is visited at most once by one of the pointers.
+* **Space:** Typically O(1), as the technique usually operates in-place.
+
+## Applications
+
+* Searching for pairs or subarrays with certain properties.
+* Reversing arrays or linked lists.
+* Merging sorted data structures.
+* Removing duplicates from sorted arrays.
+* Detecting cycles in linked lists.
+
+## Related LeetCode Problems
+
+* [1. Two Sum](https://leetcode.com/problems/two-sum/) (can be solved with two pointers if the array is sorted)
+* [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+* [15. 3Sum](https://leetcode.com/problems/3sum/)
+* [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+* [27. Remove Element](https://leetcode.com/problems/remove-element/)
+* [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+* [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+* [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+* [344. Reverse String](https://leetcode.com/problems/reverse-string/)

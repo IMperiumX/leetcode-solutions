@@ -296,3 +296,64 @@ def partition(s):
 7. [79. Word Search](https://leetcode.com/problems/word-search/)
 8. [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 9. [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+
+# Backtracking
+
+## Explanation
+
+Backtracking is a general algorithmic technique for finding all (or some) solutions to computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
+
+**Key Concepts:**
+
+* **Choice:** At each step, there are multiple choices to make.
+* **Constraint:** Rules that limit the valid choices.
+* **Goal:**  A state that satisfies all constraints and represents a solution.
+
+**General Algorithm:**
+
+```
+
+def backtrack(candidate):
+    if is_solution(candidate):
+        add_to_result(candidate)
+        return
+
+    for choice in get_choices(candidate):
+        if is_valid(candidate, choice):
+            make_choice(candidate, choice)  # Modify the candidate
+            backtrack(candidate)
+            undo_choice(candidate, choice)  # Backtrack: undo the modification
+
+```
+
+**Explanation of Steps:**
+
+1. **`backtrack(candidate)`:** The recursive function that explores possible solutions.
+2. **`is_solution(candidate)`:** Checks if the current `candidate` is a complete solution.
+3. **`add_to_result(candidate)`:** Adds the complete solution to the result set.
+4. **`get_choices(candidate)`:** Returns a list of possible choices at the current state.
+5. **`is_valid(candidate, choice)`:** Checks if making the given `choice` is allowed by the problem's constraints.
+6. **`make_choice(candidate, choice)`:**  Applies the `choice` to the `candidate` (e.g., adding an element, making a move).
+7. **`undo_choice(candidate, choice)`:** Reverts the `choice` (e.g., removing the element, undoing the move).  This is crucial for exploring other possibilities.
+
+**Advantages:**
+
+* **Systematic Exploration:** Guarantees finding all solutions (if they exist) by systematically exploring the search space.
+* **Flexibility:** Can be adapted to a wide variety of problems.
+
+**Disadvantages:**
+
+* **Exponential Time Complexity:** In the worst case, backtracking can explore a very large search space, leading to exponential time complexity.  However, effective pruning (using constraints to eliminate choices early) can significantly improve performance.
+
+**Common Applications:**
+
+* **N-Queens Problem:** Placing N chess queens on an N×N chessboard so that no two queens threaten each other.
+* **Sudoku Solver:** Filling a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids contains all of the digits from 1 to 9.
+* **Maze Solving:** Finding a path through a maze.
+* **Combinatorial Optimization:**  Problems involving finding the best combination of choices, such as the Knapsack problem.
+* **Generate Parentheses.**
+* **Permutations and Combinations:** Generating all possible permutations or combinations of a set of elements.
+
+**Example Problem**
+
+* [22. Generate Parentheses](./0022-generate-parentheses/README.md)

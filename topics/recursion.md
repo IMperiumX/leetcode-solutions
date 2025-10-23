@@ -60,3 +60,61 @@ Recursion is well-suited for problems that have a recursive structure, such as:
 * [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 * [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)
 * [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+
+# Recursion
+
+## Explanation
+
+Recursion is a programming technique where a function calls itself within its own definition.  It's a powerful way to solve problems that can be broken down into smaller, self-similar subproblems.
+
+**Key Components:**
+
+1. **Base Case(s):**  One or more conditions that stop the recursion.  Without base cases, the function would call itself indefinitely, leading to a stack overflow error.
+2. **Recursive Step:** The part of the function where it calls itself, usually with modified input that brings it closer to a base case.
+
+**How it Works:**
+
+Each time a function calls itself, a new "frame" is added to the call stack.  This frame stores the function's local variables and the point to return to after the recursive call completes. When a base case is reached, the function returns a value, and the frames are popped off the stack one by one, with each return value potentially being used in the calling function.
+
+**Example: Factorial**
+
+```python
+def factorial(n):
+    # Base case: factorial of 0 is 1
+    if n == 0:
+        return 1
+    # Recursive step: n! = n * (n-1)!
+    else:
+        return n * factorial(n - 1)
+```
+
+**Advantages:**
+
+* **Elegance and Readability:** Recursive solutions can often be more concise and easier to understand than iterative solutions for problems with a naturally recursive structure.
+* **Problem Decomposition:** Recursion naturally breaks down complex problems into smaller, more manageable subproblems.
+
+**Disadvantages:**
+
+* **Stack Overflow:**  Excessive recursion (too many nested calls) can lead to a stack overflow error if the call stack runs out of space.
+* **Performance Overhead:** Function calls can have some overhead, so recursive solutions can sometimes be slower than iterative solutions, especially if the recursion depth is large.  However, tail-call optimization (available in some languages) can mitigate this.
+* **Debugging:**  Debugging recursive functions can sometimes be more challenging than debugging iterative code.
+
+**Types of Recursion:**
+
+* **Direct Recursion:** A function calls itself directly.
+* **Indirect Recursion:**  A function calls another function, which eventually calls the first function (forming a cycle).
+* **Tail Recursion:**  The recursive call is the very last operation performed in the function.  Tail-recursive functions can often be optimized by compilers to avoid stack growth.
+* **Non-Tail Recursion:** The recursive call is not the last operation (e.g., there's a calculation after the recursive call).
+
+**Common Applications:**
+
+* **Tree Traversal:** (Preorder, Inorder, Postorder)
+* **Graph Traversal:** (Depth-First Search)
+* **Divide and Conquer Algorithms:** (Merge Sort, Quick Sort)
+* **Fractals:** Generating self-similar patterns.
+* **Mathematical Functions:** (Factorial, Fibonacci sequence)
+* **Backtracking.**
+
+**Example Problem**
+
+* [22. Generate Parentheses](./0022-generate-parentheses/README.md)
